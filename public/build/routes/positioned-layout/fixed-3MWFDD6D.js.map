@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout/fixed.tsx?browser", "../../../../app/routes/positioned-layout/fixed.tsx"],
-  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout/fixed.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return (\n    <Wrapper>\n      <Section>\n        \u201Cmargin-left\u201D\n        <div className=\"pink box with-margin\"></div>\n      </Section>\n      <Section>\n        \u201Cleft\u201D\n        <div className=\"pink box with-position\"></div>\n      </Section>\n    </Wrapper>\n  );\n}\n\nconst Wrapper = styled(\"div\", {\n  marginTop: \"100px\",\n  marginLeft: \"150px\",\n  height: \"900px\",\n  border: \"solid\",\n});\n\nconst Section = styled(\"section\", {\n  flex: 1,\n  background: \"#EEE\",\n  borderRadius: \"4px\",\n  fontSize: \"0.875rem\",\n  textAlign: \"center\",\n  lineHeight: 3,\n});\n"],
-  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,oCAAC,SAAD,MACE,oCAAC,SAAD,MAAS,2BAEP,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,OAEjB,oCAAC,SAAD,MAAS,oBAEP,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA;AAAA;AAMvB,IAAM,UAAU,OAAO,OAAO;AAAA,EAC5B,WAAW;AAAA,EACX,YAAY;AAAA,EACZ,QAAQ;AAAA,EACR,QAAQ;AAAA;AAGV,IAAM,UAAU,OAAO,WAAW;AAAA,EAChC,MAAM;AAAA,EACN,YAAY;AAAA,EACZ,cAAc;AAAA,EACd,UAAU;AAAA,EACV,WAAW;AAAA,EACX,YAAY;AAAA;",
-  "names": []
-}

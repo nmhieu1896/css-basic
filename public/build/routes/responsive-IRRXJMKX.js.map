@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/responsive.tsx?browser", "../../../app/routes/responsive.tsx"],
-  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/responsive.tsx\";", "import { styled } from \"@stitches/config\";\nimport { Link } from \"react-router-dom\";\nimport { Outlet } from \"@remix-run/react\";\n\nexport default function Index() {\n  return (\n    <div>\n      <Navigator>\n        <Link to=\"css-variable\">CSS Variables</Link>\n        <Link to=\"positioned-layout\">Position Layout</Link>\n        <Link to=\"flex-layout\">Flex Layout</Link>\n      </Navigator>\n      <Outlet />\n    </div>\n  );\n}\n\nconst Navigator = styled(\"div\", {\n  display: \"flex\",\n  gap: \"40px\",\n  justifyContent: \"center\",\n  fontSize: \"$28\",\n  marginBottom: \"30px\",\n});\n"],
-  "mappings": ";;;;;;;;;;;;;AAAA;;;ACAA;AAIe,iBAAiB;AAC9B,SACE,oCAAC,OAAD,MACE,oCAAC,WAAD,MACE,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAe,kBACxB,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAoB,oBAC7B,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAc,iBAEzB,oCAAC,QAAD;AAAA;AAKN,IAAM,YAAY,OAAO,OAAO;AAAA,EAC9B,SAAS;AAAA,EACT,KAAK;AAAA,EACL,gBAAgB;AAAA,EAChB,UAAU;AAAA,EACV,cAAc;AAAA;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout/width.tsx?browser", "../../../../app/routes/flow-layout/width.tsx"],
-  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout/width.tsx\";", "import { Outlet } from \"@remix-run/react\";\nimport { styled } from \"@stitches/config\";\nimport { Link } from \"react-router-dom\";\n\nexport default function Index() {\n  return (\n    <>\n      <h1>width algorithm</h1>\n      <section>\n        <Navigator>\n          <Link to=\"auto-vs-100\">100% vs auto</Link>\n          <Link to=\"fit\">Content width</Link>\n        </Navigator>\n        <Outlet />\n      </section>\n    </>\n  );\n}\n\nconst Navigator = styled(\"div\", {\n  display: \"flex\",\n  gap: \"40px\",\n  justifyContent: \"center\",\n  fontSize: \"$28\",\n});\n"],
-  "mappings": ";;;;;;;;;;;;;AAAA;;;ACAA;AAIe,iBAAiB;AAC9B,SACE,0DACE,oCAAC,MAAD,MAAI,oBACJ,oCAAC,WAAD,MACE,oCAAC,WAAD,MACE,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAc,iBACvB,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAM,mBAEjB,oCAAC,QAAD;AAAA;AAMR,IAAM,YAAY,OAAO,OAAO;AAAA,EAC9B,SAAS;AAAA,EACT,KAAK;AAAA,EACL,gBAAgB;AAAA,EAChB,UAAU;AAAA;",
-  "names": []
-}

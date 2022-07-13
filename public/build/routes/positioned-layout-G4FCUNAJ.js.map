@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout.tsx?browser", "../../../app/routes/positioned-layout.tsx"],
-  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout.tsx\";", "import { Outlet } from \"@remix-run/react\";\nimport { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return (\n    <Wrapper>\n      <Outlet />\n    </Wrapper>\n  );\n}\n\nconst Wrapper = styled(\"div\", {\n  width: \"100%\",\n  minHeight: \"400px\",\n  //   background: \"$gray300\",\n  background: \"hsl(306deg 60% 76% / 0.15)\",\n\n  \"& h1\": {\n    fontSize: \"$28\",\n    textAlign: \"center\",\n    margin: \"0\",\n  },\n  \"& section\": {\n    border: \"1px solid $purple500\",\n    padding: \"40px\",\n\n    marginBottom: \"20px\",\n  },\n});\n"],
-  "mappings": ";;;;;;;;;;;;AAAA;;;ACAA;AAGe,iBAAiB;AAC9B,SACE,oCAAC,SAAD,MACE,oCAAC,QAAD;AAAA;AAKN,IAAM,UAAU,OAAO,OAAO;AAAA,EAC5B,OAAO;AAAA,EACP,WAAW;AAAA,EAEX,YAAY;AAAA,EAEZ,QAAQ;AAAA,IACN,UAAU;AAAA,IACV,WAAW;AAAA,IACX,QAAQ;AAAA;AAAA,EAEV,aAAa;AAAA,IACX,QAAQ;AAAA,IACR,SAAS;AAAA,IAET,cAAc;AAAA;AAAA;",
-  "names": []
-}

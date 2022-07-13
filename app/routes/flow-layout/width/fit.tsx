@@ -16,7 +16,7 @@ export default function Index() {
 const H2 = styled("h2", {
   background: "$green500",
   letterSpacing: "1.5px",
-  //   width: "fit-content",
+  width: "fit-content",
   //   display: "table",
   //   minWidth: "min-content",
   //   maxWidth: "max-content",

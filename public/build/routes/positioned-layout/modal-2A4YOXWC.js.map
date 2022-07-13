@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout/modal.tsx?browser", "../../../../app/routes/positioned-layout/modal.tsx"],
-  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout/modal.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return <Wrapper></Wrapper>;\n}\n\nconst Wrapper = styled(\"div\", {});\n"],
-  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SAAO,oCAAC,SAAD;AAAA;AAGT,IAAM,UAAU,OAAO,OAAO;",
-  "names": []
-}

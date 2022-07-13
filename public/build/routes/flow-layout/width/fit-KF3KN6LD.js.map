@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout/width/fit.tsx?browser", "../../../../../app/routes/flow-layout/width/fit.tsx"],
-  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout/width/fit.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return (\n    <>\n      <H2>Short</H2>\n      <H2>A mid-length heading, mid-length heading</H2>\n      <H2>\n        The longest heading you've ever seen in your life, will it ever end,The\n        longest heading you've ever seen in your life, will it ever end,\n      </H2>\n    </>\n  );\n}\n\nconst H2 = styled(\"h2\", {\n  background: \"$green500\",\n  width: \"fit-content\",\n  letterSpacing: \"1.5px\",\n  //   display: \"table\",\n  //   minWidth: \"min-content\",\n  //   maxWidth: \"max-content\",\n});\n"],
-  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,0DACE,oCAAC,IAAD,MAAI,UACJ,oCAAC,IAAD,MAAI,6CACJ,oCAAC,IAAD,MAAI;AAAA;AAQV,IAAM,KAAK,OAAO,MAAM;AAAA,EACtB,YAAY;AAAA,EACZ,OAAO;AAAA,EACP,eAAe;AAAA;",
-  "names": []
-}

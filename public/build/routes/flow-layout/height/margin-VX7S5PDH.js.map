@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout/height/margin.tsx?browser", "../../../../../app/routes/flow-layout/height/margin.tsx"],
-  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout/height/margin.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return <Wrapper></Wrapper>;\n}\n\nconst Wrapper = styled(\"div\", {\n  width: \"100%\",\n  height: \"50px\",\n  border: \"1px solid $blue500\",\n  margin: \"30px\",\n});\n"],
-  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SAAO,oCAAC,SAAD;AAAA;AAGT,IAAM,UAAU,OAAO,OAAO;AAAA,EAC5B,OAAO;AAAA,EACP,QAAQ;AAAA,EACR,QAAQ;AAAA,EACR,QAAQ;AAAA;",
-  "names": []
-}

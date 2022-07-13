@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/responsive/clamp.tsx?browser", "../../../../app/routes/responsive/clamp.tsx"],
-  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/responsive/clamp.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function () {\n  return <Wrapper />;\n}\n\nconst Wrapper = styled(\"main\", {});\n"],
-  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,yBAAY;AACzB,SAAO,oCAAC,SAAD;AAAA;AAGT,IAAM,UAAU,OAAO,QAAQ;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/responsive/css-variable.tsx?browser", "../../../../app/routes/responsive/css-variable.tsx"],
-  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/responsive/css-variable.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return (\n    <Wrapper>\n      <article>Card 1</article>\n      <article>Card 2</article>\n      <article>Card 3</article>\n    </Wrapper>\n  );\n}\n\nconst Wrapper = styled(\"main\", {\n  \"--spacing\": \"8px\",\n  display: \"flex\",\n  flexDirection: \"column\",\n  alignItems: \"center\",\n  gap: \"var(--spacing)\",\n  padding: \"var(--spacing)\",\n});\n"],
-  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,oCAAC,SAAD,MACE,oCAAC,WAAD,MAAS,WACT,oCAAC,WAAD,MAAS,WACT,oCAAC,WAAD,MAAS;AAAA;AAKf,IAAM,UAAU,OAAO,QAAQ;AAAA,EAC7B,aAAa;AAAA,EACb,SAAS;AAAA,EACT,eAAe;AAAA,EACf,YAAY;AAAA,EACZ,KAAK;AAAA,EACL,SAAS;AAAA;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout/relative.tsx?browser", "../../../../app/routes/positioned-layout/relative.tsx"],
-  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout/relative.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return (\n    <Wrapper>\n      <Button>Hello</Button>\n    </Wrapper>\n  );\n}\n\nconst Wrapper = styled(\"div\", {\n  display: \"flex\",\n  alignItems: \"flex-start\",\n});\n\nconst Button = styled(\"div\", {\n  width: \"75px\",\n  height: \"75px\",\n  lineHeight: \"44px\",\n  borderRadius: \"50%\",\n  background: \"hsl(345deg 100% 40%)\",\n  color: \"white\",\n  textAlign: \"center\",\n  fontSize: \"20px\",\n  fontWeight: \"500\",\n  border: \"3px solid white\",\n  boxShadow: \"2px 2px 20px hsl(248deg 80% 40% / 0.33)\",\n  cursor: \"pointer\",\n  //\n  position: \"fixed\",\n  right: 0,\n  top: 50,\n});\n"],
-  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,oCAAC,SAAD,MACE,oCAAC,QAAD,MAAQ;AAAA;AAKd,IAAM,UAAU,OAAO,OAAO;AAAA,EAC5B,SAAS;AAAA,EACT,YAAY;AAAA;AAGd,IAAM,SAAS,OAAO,OAAO;AAAA,EAC3B,OAAO;AAAA,EACP,QAAQ;AAAA,EACR,YAAY;AAAA,EACZ,cAAc;AAAA,EACd,YAAY;AAAA,EACZ,OAAO;AAAA,EACP,WAAW;AAAA,EACX,UAAU;AAAA,EACV,YAAY;AAAA,EACZ,QAAQ;AAAA,EACR,WAAW;AAAA,EACX,QAAQ;AAAA,EAER,UAAU;AAAA,EACV,OAAO;AAAA,EACP,KAAK;AAAA;",
-  "names": []
-}

@@ -13,7 +13,7 @@ const Wrapper = styled("div", {
   width: "100%",
   height: "50px",
   border: "1px solid $blue500",
-  margin: "20px 0px",
+  margin: "20px 20px",
   textAlign: "center",
   fontSize: "$20",
   lineHeight: "50px",

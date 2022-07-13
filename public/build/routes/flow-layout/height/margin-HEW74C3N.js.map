@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout/height/margin.tsx?browser", "../../../../../app/routes/flow-layout/height/margin.tsx"],
-  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout/height/margin.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return (\n    <Wrapper>\n      <p>Paragraph One</p>\n      <br />\n      <p>Paragraph Two</p>\n    </Wrapper>\n  );\n}\n\nconst Wrapper = styled(\"div\", {\n  border: \"1px solid $blue500\",\n  margin: \"30px\",\n  \"& p\": {\n    textAlign: \"center\",\n    margin: \"32px\",\n  },\n});\n"],
-  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,oCAAC,SAAD,MACE,oCAAC,KAAD,MAAG,kBACH,oCAAC,MAAD,OACA,oCAAC,KAAD,MAAG;AAAA;AAKT,IAAM,UAAU,OAAO,OAAO;AAAA,EAC5B,QAAQ;AAAA,EACR,QAAQ;AAAA,EACR,OAAO;AAAA,IACL,WAAW;AAAA,IACX,QAAQ;AAAA;AAAA;",
-  "names": []
-}
