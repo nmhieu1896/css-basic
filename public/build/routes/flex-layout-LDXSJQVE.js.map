@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flex-layout.tsx?browser", "../../../app/routes/flex-layout.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flex-layout.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return (\n    <Wrapper>\n      <Parent>\n        <div>Child</div>\n        <div>Child</div>\n        <div>Child</div>\n      </Parent>\n    </Wrapper>\n  );\n}\n\nconst Wrapper = styled(\"div\", {\n  width: \"100%\",\n  minHeight: \"400px\",\n  //   background: \"$gray300\",\n  background: \"hsl(306deg 60% 76% / 0.15)\",\n\n  \"& section\": {\n    border: \"1px solid $purple500\",\n    padding: \"40px\",\n\n    marginBottom: \"20px\",\n  },\n});\n\nconst Parent = styled(\"div\", {\n  display: \"flex\",\n});\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,oCAAC,SAAD,MACE,oCAAC,QAAD,MACE,oCAAC,OAAD,MAAK,UACL,oCAAC,OAAD,MAAK,UACL,oCAAC,OAAD,MAAK;AAAA;AAMb,IAAM,UAAU,OAAO,OAAO;AAAA,EAC5B,OAAO;AAAA,EACP,WAAW;AAAA,EAEX,YAAY;AAAA,EAEZ,aAAa;AAAA,IACX,QAAQ;AAAA,IACR,SAAS;AAAA,IAET,cAAc;AAAA;AAAA;AAIlB,IAAM,SAAS,OAAO,OAAO;AAAA,EAC3B,SAAS;AAAA;",
+  "names": []
+}

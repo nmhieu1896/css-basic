@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout/height.tsx?browser", "../../../../app/routes/flow-layout/height.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout/height.tsx\";", "import { Outlet } from \"@remix-run/react\";\nimport { styled } from \"@stitches/config\";\nimport { Link } from \"react-router-dom\";\n\nexport default function Index() {\n  return (\n    <Wrapper>\n      <h1>height algorithm</h1>\n      <section>\n        <Navigator>\n          <Link to=\"margin\">Margin Collapsing</Link>\n        </Navigator>\n        <Outlet />\n      </section>\n    </Wrapper>\n  );\n}\n\nconst Wrapper = styled(\"div\", {\n  height: \"100%\",\n  // background: \"hsl(148deg 60% 60% / 0.3)\",\n});\n\nconst Navigator = styled(\"div\", {\n  display: \"flex\",\n  gap: \"40px\",\n  justifyContent: \"center\",\n  fontSize: \"$28\",\n});\n"],
+  "mappings": ";;;;;;;;;;;;;AAAA;;;ACAA;AAIe,iBAAiB;AAC9B,SACE,oCAAC,SAAD,MACE,oCAAC,MAAD,MAAI,qBACJ,oCAAC,WAAD,MACE,oCAAC,WAAD,MACE,oCAAC,MAAD;AAAA,IAAM,IAAG;AAAA,KAAS,uBAEpB,oCAAC,QAAD;AAAA;AAMR,IAAM,UAAU,OAAO,OAAO;AAAA,EAC5B,QAAQ;AAAA;AAIV,IAAM,YAAY,OAAO,OAAO;AAAA,EAC9B,SAAS;AAAA,EACT,KAAK;AAAA,EACL,gBAAgB;AAAA,EAChB,UAAU;AAAA;",
+  "names": []
+}

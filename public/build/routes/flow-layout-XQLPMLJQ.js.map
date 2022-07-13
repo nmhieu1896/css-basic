@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout.tsx?browser", "../../../app/routes/flow-layout.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/flow-layout.tsx\";", "import { Outlet } from \"@remix-run/react\";\nimport { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return (\n    <Wrapper style={{ fontFamily: \"system-ui, sans-serif\", lineHeight: \"1.4\" }}>\n      <Section>\n        <Outlet />\n      </Section>\n    </Wrapper>\n  );\n}\n\nconst Wrapper = styled(\"div\", {\n  width: \"100%\",\n  minHeight: \"400px\",\n  background: \"$gray500 \",\n\n  \"& h1\": {\n    fontSize: \"$28\",\n    textAlign: \"center\",\n  },\n});\n\nconst Section = styled(\"section\", {\n  border: \"1px solid $purple500\",\n  padding: \"40px\",\n});\n"],
+  "mappings": ";;;;;;;;;;;;AAAA;;;ACAA;AAGe,iBAAiB;AAC9B,SACE,oCAAC,SAAD;AAAA,IAAS,OAAO,EAAE,YAAY,yBAAyB,YAAY;AAAA,KACjE,oCAAC,SAAD,MACE,oCAAC,QAAD;AAAA;AAMR,IAAM,UAAU,OAAO,OAAO;AAAA,EAC5B,OAAO;AAAA,EACP,WAAW;AAAA,EACX,YAAY;AAAA,EAEZ,QAAQ;AAAA,IACN,UAAU;AAAA,IACV,WAAW;AAAA;AAAA;AAIf,IAAM,UAAU,OAAO,WAAW;AAAA,EAChC,QAAQ;AAAA,EACR,SAAS;AAAA;",
+  "names": []
+}

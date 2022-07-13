@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Great Vibes";
+  src: url("/fonts/great-vibes.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fallback";
+  size-adjust: 95%;
+  ascent-override: 90%;
+  descent-override: 20%;
+  advance-override: 1.1;
+  src: local("Arial");
+}

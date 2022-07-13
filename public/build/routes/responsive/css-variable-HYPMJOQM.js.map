@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/responsive/css-variable.tsx?browser", "../../../../app/routes/responsive/css-variable.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/responsive/css-variable.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return (\n    <Wrapper>\n      This text is just inside main.\n      <section>This text is inside section.</section>\n    </Wrapper>\n  );\n}\n\nconst Wrapper = styled(\"main\", {\n  width: \"100%\",\n  minHeight: \"400px\",\n  //   background: \"$gray300\",\n  background: \"hsl(306deg 60% 76% / 0.15)\",\n});\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,oCAAC,SAAD,MAAS,kCAEP,oCAAC,WAAD,MAAS;AAAA;AAKf,IAAM,UAAU,OAAO,QAAQ;AAAA,EAC7B,OAAO;AAAA,EACP,WAAW;AAAA,EAEX,YAAY;AAAA;",
+  "names": []
+}

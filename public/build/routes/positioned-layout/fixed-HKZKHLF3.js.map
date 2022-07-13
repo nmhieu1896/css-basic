@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout/fixed.tsx?browser", "../../../../app/routes/positioned-layout/fixed.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout/fixed.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return <Wrapper></Wrapper>;\n}\n\nconst Wrapper = styled(\"div\", {\n  marginTop: \"100px\",\n  marginLeft: \"150px\",\n  height: \"900px\",\n  border: \"solid\",\n});\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SAAO,oCAAC,SAAD;AAAA;AAGT,IAAM,UAAU,OAAO,OAAO;AAAA,EAC5B,WAAW;AAAA,EACX,YAAY;AAAA,EACZ,QAAQ;AAAA,EACR,QAAQ;AAAA;",
+  "names": []
+}

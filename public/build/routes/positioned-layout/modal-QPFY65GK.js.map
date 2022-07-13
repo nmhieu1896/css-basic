@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout/modal.tsx?browser", "../../../../app/routes/positioned-layout/modal.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/positioned-layout/modal.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return (\n    <Wrapper>\n      <Modal>Hello</Modal>\n    </Wrapper>\n  );\n}\n\nconst Wrapper = styled(\"div\", {});\n\nconst Modal = styled(\"div\", {\n  position: \"fixed\",\n  top: 0,\n  left: 0,\n  right: 0,\n  bottom: 0,\n  width: \"85%\",\n  height: \"200px\",\n  margin: \"auto\",\n});\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,oCAAC,SAAD,MACE,oCAAC,OAAD,MAAO;AAAA;AAKb,IAAM,UAAU,OAAO,OAAO;AAE9B,IAAM,QAAQ,OAAO,OAAO;AAAA,EAC1B,UAAU;AAAA,EACV,KAAK;AAAA,EACL,MAAM;AAAA,EACN,OAAO;AAAA,EACP,QAAQ;AAAA,EACR,OAAO;AAAA,EACP,QAAQ;AAAA,EACR,QAAQ;AAAA;",
+  "names": []
+}

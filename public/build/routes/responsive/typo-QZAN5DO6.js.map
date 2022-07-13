@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/responsive/typo.tsx?browser", "../../../../app/routes/responsive/typo.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/macbookM1/Documents/code/spiritech-camp/css-workshop/app/routes/responsive/typo.tsx\";", "import { styled } from \"@stitches/config\";\n\nexport default function Index() {\n  return (\n    <>\n      <Wrapper></Wrapper>\n    </>\n  );\n}\n\nconst Wrapper = styled(\"main\", {\n  border: \"1px solid $purple500\",\n  maxWidth: \"50%\",\n  margin: \"auto\",\n});\n\nconst Text = styled(\"p\", {});\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,0DACE,oCAAC,SAAD;AAAA;AAKN,IAAM,UAAU,OAAO,QAAQ;AAAA,EAC7B,QAAQ;AAAA,EACR,UAAU;AAAA,EACV,QAAQ;AAAA;AAGV,IAAM,OAAO,OAAO,KAAK;",
+  "names": []
+}
